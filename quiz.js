@@ -21,11 +21,11 @@ function hash(str) {
     return new Uint32Array([hash])[0].toString(36);
 }
 
-var questionSet = [["who is the best dog ?", "c80s90"], 
-                  ["What number am I thinking of between 0 and 100?", "1y4k6jp"], 
-                  ["Which planet spins the other way ?", "1d555p"],  
-                  ["What is the best tree?", "184hf23"], 
-                  ["What is the best song?","8o1il9"]];
+var questionSet = [["who is the best dog ?", "c80s90"],// cahrles  
+                  ["What number am I thinking of between 0 and 100?", "94sftg"],//93.3333 
+                  ["Which planet spins the other way ?", "1d555p"],//Venus  
+                  ["What is the best tree?", "1yfxe0w"], //mahogany
+                  ["What is the best song?","1x48wwa"]]; //this little light of mine
 
 function checkAnswer(answerNum){
     var response = "You were... ";
